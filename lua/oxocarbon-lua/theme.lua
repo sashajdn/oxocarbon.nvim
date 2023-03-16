@@ -334,6 +334,12 @@ Theme.set_general_highlights = function(colors)
   highlight('DashboardHeader', 16, none)
   highlight('DashboardCenter', 15, none)
   highlight('DashboardFooter', 9, none)
+
+  -- Noice.
+  highlight('NoiceCmdLinePopup', 6, none)
+  highlight('NoiceCmdLinePopupBorder', 4, none)
+  highlight('NoicePopup', 6, none)
+  highlight('NoicePopupBorder', 4, none)
 end
 
 return Theme
