@@ -344,16 +344,16 @@ Theme.set_general_highlights = function(colors)
 
   --- ChatGPT.
   highlight('ChatGPTQuestion', 8, none)
-  highlight('ChatGPTWelcome', 5, none)
+  highlight('ChatGPTWelcome', 15, none)
   highlight('ChatGPTTotalTokens', 13, none)
   highlight('ChatGPTTotalTokensBorder', 9, none)
 
   highlight('ChatGPTChatWindowNormal', 5, none)
-  highlight('ChatGPTChatWindowBorder', 15, none)
+  highlight('ChatGPTChatWindowBorder', 10, none)
   highlight('ChatGPTChatInputNormal', 5, none)
-  highlight('ChatGPTChatInputBorder', 15, none)
+  highlight('ChatGPTChatInputBorder', 10, none)
   highlight('ChatGPTChatSessionNormal', 9, none)
-  highlight('ChatGPTChatSessionBorder', 15, none)
+  highlight('ChatGPTChatSessionBorder', 10, none)
 
 end
 
