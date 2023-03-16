@@ -240,7 +240,7 @@ Theme.set_general_highlights = function(colors)
 
   -- telescope
   if vim.g.oxocarbon_lua_alternative_telescope then
-    highlight('TelescopeBorder', 4, none)
+    highlight('TelescopeBorder', 13, none)
     highlight('TelescopePromptNormal', 6, none)
     highlight('TelescopePromptPrefix', 8, none)
 
