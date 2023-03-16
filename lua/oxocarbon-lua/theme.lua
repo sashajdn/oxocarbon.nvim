@@ -338,9 +338,9 @@ Theme.set_general_highlights = function(colors)
 
   -- Noice.
   highlight('NoiceCmdLinePopup', 6, none)
-  highlight('NoiceCmdLinePopupBorder', 4, none)
+  highlight('NoiceCmdLinePopupBorder', 12, none)
   highlight('NoicePopup', 11, none)
-  highlight('NoicePopupBorder', 4, none)
+  highlight('NoicePopupBorder', 12, none)
 
   --- ChatGPT.
   highlight('ChatGPTQuestion', 8, none)
