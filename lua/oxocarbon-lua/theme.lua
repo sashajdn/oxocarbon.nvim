@@ -203,6 +203,7 @@ Theme.set_general_highlights = function(colors)
   highlight('@title', 11, none)
   highlight('@literal', 5, none)
   highlight('@type', 13, none) -- edited from 10
+  highlight('@type.definition', 13, none) -- edited from 10
   highlight('@type.builtin', 5, none)
   highlight('@variable', 5, none)
   highlight('@variable.builtin', 5, none)
