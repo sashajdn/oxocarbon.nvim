@@ -247,9 +247,9 @@ Theme.set_general_highlights = function(colors)
 
     highlight('TelescopeNormal', 5, none)
 
-    highlight('TelescopePreviewTitle', 9, none)
+    highlight('TelescopePreviewTitle',9, none)
     highlight('TelescopePromptTitle', 9, none)
-    highlight('TelescopeResultsTitle', 9  none)
+    highlight('TelescopeResultsTitle', 9,  none)
 
     highlight('TelescopeSelection', none, 3)
   else
