@@ -218,7 +218,7 @@ Theme.set_general_highlights = function(colors)
 
   -- neovim
   highlight('NvimInternalError', 1, 9)
-  highlight('NormalFloat', 6, 17)
+  highlight('NormalFloat', 6, conditional_bg(17))
   highlight('FloatBorder', 17, 17)
   highlight('NormalNC', 6, 1)
   highlight('TermCursor', 1, 5)
@@ -347,12 +347,12 @@ Theme.set_general_highlights = function(colors)
   highlight('ChatGPTTotalTokens', 16, none)
   highlight('ChatGPTTotalTokensBorder', 13, none)
 
-  highlight('ChatGPTChatWindowNormal', 8, none)
-  highlight('ChatGPTChatWindowBorder', 8, none)
-  highlight('ChatGPTChatInputNormal', 8, none)
-  highlight('ChatGPTChatInputBorder', 8, none)
-  highlight('ChatGPTChatSessionNormal', 8, none)
-  highlight('ChatGPTChatSessionBorder', 8, none)
+  highlight('ChatGPTChatWindowNormal', 5, none)
+  highlight('ChatGPTChatWindowBorder', 13, none)
+  highlight('ChatGPTChatInputNormal', 5, none)
+  highlight('ChatGPTChatInputBorder', 13, none)
+  highlight('ChatGPTChatSessionNormal', 5, none)
+  highlight('ChatGPTChatSessionBorder', 13, none)
 
 end
 
