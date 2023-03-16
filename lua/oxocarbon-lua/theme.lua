@@ -351,6 +351,8 @@ Theme.set_general_highlights = function(colors)
   highlight('ChatGPTChatWindowBorder', 8, none)
   highlight('ChatGPTChatInputNormal', 8, none)
   highlight('ChatGPTChatInputBorder', 8, none)
+  highlight('ChatGPTChatSessionNormal', 8, none)
+  highlight('ChatGPTChatSessionBorder', 8, none)
 
 end
 
