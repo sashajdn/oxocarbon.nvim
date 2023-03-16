@@ -161,7 +161,7 @@ Theme.set_general_highlights = function(colors)
   highlight('Type', 10, none)
   highlight('Typedef', 10, none)
 
-  -- Treesitter (TS)
+  -- Treesitter (TS).
   highlight('@annotation', 13, none)
   highlight('@attribute', 16, none)
   highlight('@boolean', 10, none)
