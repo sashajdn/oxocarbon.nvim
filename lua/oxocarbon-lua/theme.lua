@@ -161,21 +161,21 @@ Theme.set_general_highlights = function(colors)
   highlight('Type', 10, none)
   highlight('Typedef', 10, none)
 
-  -- treesitter
+  -- Treesitter (TS).
   highlight('@annotation', 13, none)
   highlight('@attribute', 16, none)
   highlight('@boolean', 10, none)
   highlight('@character', 15, none)
   highlight('@constructor', 10, none)
   highlight('@conditional', 10, none)
-  highlight('@constant', 15, none)
-  highlight('@const.builtin', 8, none)
+  highlight('@constant', 21, none)
+  highlight('@constant.builtin', 21, none)
   highlight('@const.macro', 8, none)
   highlight('@error', 12, none)
   highlight('@exception', 16, none)
   highlight('@field', 5, none)
-  highlight('@float', 16, none)
-  highlight('@func.builtin', 13, none)
+  highlight('@float', 15, none)
+  highlight('@function.builtin', 13, none)
   highlight('@func.macro', 8, none)
   highlight('@include', 10, none)
   highlight('@keyword', 10, none)
@@ -191,6 +191,7 @@ Theme.set_general_highlights = function(colors)
   highlight('@property', 11, none)
   highlight('@punct.delimiter', 9, none)
   highlight('@punct.bracket', 9, none)
+  highlight('@punctuation.bracket', 9, none)
   highlight('@punct.special', 9, none)
   highlight('@repeat', 10, none)
   highlight('@string', 15, none)
@@ -201,7 +202,8 @@ Theme.set_general_highlights = function(colors)
   highlight('@text', 5, none)
   highlight('@title', 11, none)
   highlight('@literal', 5, none)
-  highlight('@type', 10, none)
+  highlight('@type', 13, none) -- edited from 10
+  highlight('@type.definition', 21, none) -- edited from 10
   highlight('@type.builtin', 5, none)
   highlight('@variable', 5, none)
   highlight('@variable.builtin', 5, none)
@@ -218,8 +220,8 @@ Theme.set_general_highlights = function(colors)
 
   -- neovim
   highlight('NvimInternalError', 1, 9)
-  highlight('NormalFloat', 6, 17)
-  highlight('FloatBorder', 17, 17)
+  highlight('NormalFloat', 6, conditional_bg(17))
+  highlight('FloatBorder', 17, conditional_bg(17))
   highlight('NormalNC', 6, 1)
   highlight('TermCursor', 1, 5)
   highlight('TermCursorNC', 1, 5)
@@ -240,15 +242,15 @@ Theme.set_general_highlights = function(colors)
 
   -- telescope
   if vim.g.oxocarbon_lua_alternative_telescope then
-    highlight('TelescopeBorder', 4, none)
+    highlight('TelescopeBorder', 13, none)
     highlight('TelescopePromptNormal', 6, none)
     highlight('TelescopePromptPrefix', 8, none)
 
     highlight('TelescopeNormal', 5, none)
 
-    highlight('TelescopePreviewTitle', 19, none)
-    highlight('TelescopePromptTitle', 19, none)
-    highlight('TelescopeResultsTitle', 19, none)
+    highlight('TelescopePreviewTitle',9, none)
+    highlight('TelescopePromptTitle', 9, none)
+    highlight('TelescopeResultsTitle', 9,  none)
 
     highlight('TelescopeSelection', none, 3)
   else
@@ -334,6 +336,26 @@ Theme.set_general_highlights = function(colors)
   highlight('DashboardHeader', 16, none)
   highlight('DashboardCenter', 15, none)
   highlight('DashboardFooter', 9, none)
+
+  -- Noice.
+  highlight('NoiceCmdLinePopup', 6, none)
+  highlight('NoiceCmdLinePopupBorder', 12, none)
+  highlight('NoicePopup', 11, none)
+  highlight('NoicePopupBorder', 12, none)
+
+  --- ChatGPT.
+  highlight('ChatGPTQuestion', 8, none)
+  highlight('ChatGPTWelcome', 15, none)
+  highlight('ChatGPTTotalTokens', 13, none)
+  highlight('ChatGPTTotalTokensBorder', 9, none)
+
+  highlight('ChatGPTChatWindowNormal', 5, none)
+  highlight('ChatGPTChatWindowBorder', 10, none)
+  highlight('ChatGPTChatInputNormal', 5, none)
+  highlight('ChatGPTChatInputBorder', 10, none)
+  highlight('ChatGPTChatSessionNormal', 9, none)
+  highlight('ChatGPTChatSessionBorder', 10, none)
+
 end
 
 return Theme
