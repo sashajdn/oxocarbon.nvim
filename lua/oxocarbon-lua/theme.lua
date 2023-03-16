@@ -343,8 +343,8 @@ Theme.set_general_highlights = function(colors)
   highlight('NoicePopupBorder', 4, none)
 
   --- ChatGPT.
-  highlight('ChatGPTQuestion', 9, none)
-  highlight('ChatGPTWelcome', 9, none)
+  highlight('ChatGPTQuestion', 8, none)
+  highlight('ChatGPTWelcome', 5, none)
   highlight('ChatGPTTotalTokens', 13, none)
   highlight('ChatGPTTotalTokensBorder', 9, none)
 
