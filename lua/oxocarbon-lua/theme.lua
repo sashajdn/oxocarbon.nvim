@@ -171,6 +171,7 @@ Theme.set_general_highlights = function(colors)
   highlight('@constant', 15, none)
   highlight('@const.builtin', 8, none)
   highlight('@const.macro', 8, none)
+  highlight('@call', 9, none) -- added
   highlight('@error', 12, none)
   highlight('@exception', 16, none)
   highlight('@field', 5, none)
