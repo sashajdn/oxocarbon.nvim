@@ -203,7 +203,7 @@ Theme.set_general_highlights = function(colors)
   highlight('@literal', 5, none)
   highlight('@type', 16, none) -- edited from 10
   highlight('@type.builtin', 5, none)
-  highlight('@variable', 10, none) -- edited from 5
+  highlight('@variable', 5, none)
   highlight('@variable.builtin', 5, none)
   highlight('@strong', none, none, { 'bold' })
   highlight('@comment', 4, none, conditional_italic)
