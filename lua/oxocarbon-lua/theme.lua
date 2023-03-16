@@ -171,7 +171,6 @@ Theme.set_general_highlights = function(colors)
   highlight('@constant', 15, none)
   highlight('@const.builtin', 8, none)
   highlight('@const.macro', 8, none)
-  highlight('@call', 9, none) -- added
   highlight('@error', 12, none)
   highlight('@exception', 16, none)
   highlight('@field', 5, none)
@@ -204,7 +203,7 @@ Theme.set_general_highlights = function(colors)
   highlight('@literal', 5, none)
   highlight('@type', 16, none) -- edited from 10
   highlight('@type.builtin', 5, none)
-  highlight('@variable', 5, none)
+  highlight('@variable', 10, none) -- edited from 5
   highlight('@variable.builtin', 5, none)
   highlight('@strong', none, none, { 'bold' })
   highlight('@comment', 4, none, conditional_italic)
