@@ -223,6 +223,36 @@ Theme.set_general_highlights = function(colors)
 	highlight("TSStrong", 8, { "italic,bold" })
 	highlight("TSStringEscape", 8, none)
 
+	-- Markup / Markdown
+	highlight("@markup", 5, none)
+	highlight("@markup.strong", 13, { "bold" })
+	highlight("@markup.italic", 10, { "italic" })
+	highlight("@markup.strikethrough", 16, { "strikethrough" })
+	highlight("@markup.underline", 11, { "underline" })
+	highlight("@markup.heading", 11, { "bold" })
+	highlight("@markup.math", 21, none)
+	highlight("@markup.quote", 14, none)
+	highlight("@markup.environment", 5, none)
+	highlight("@markup.environment.name", 5, none)
+	highlight("@markup.link", 9, none)
+	highlight("@markup.link.label", 10, none)
+	highlight("@markup.raw", 5, none)
+	highlight("@markup.list", 15, none)
+	highlight("@markup.list.checked", 9, { "bold" })
+	highlight("@markup.list.unchecked", 13, none)
+
+	highlight("@markup.heading.1.markdown", 13, { "bold" })
+	highlight("@markup.heading.2.markdown", 9, { "bold" })
+	highlight("@markup.heading.3.markdown", 21, { "bold" })
+	highlight("@markup.heading.4.markdown", 15, { "bold" })
+	highlight("@markup.heading.5.markdown", 16, { "bold" })
+	highlight("@markup.heading.6.markdown", 10, { "bold" })
+
+	-- Diff
+	highlight("@diff.plus", 14, { "bold" })
+	highlight("@diff.minus", 13, { "bold" })
+	highlight("@diff.delta", 21, { "bold" })
+
 	-- neovim
 	highlight("NvimInternalError", 1, 9)
 	highlight("NormalFloat", 6, conditional_bg(17))
