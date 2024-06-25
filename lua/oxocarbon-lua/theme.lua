@@ -241,6 +241,13 @@ Theme.set_general_highlights = function(colors)
 	highlight("@markup.list.checked", 9, { "bold" })
 	highlight("@markup.list.unchecked", 13, none)
 
+	highlight("@markup.heading.1", 13, { "bold" })
+	highlight("@markup.heading.2", 9, { "bold" })
+	highlight("@markup.heading.3", 21, { "bold" })
+	highlight("@markup.heading.4", 15, { "bold" })
+	highlight("@markup.heading.5", 16, { "bold" })
+	highlight("@markup.heading.6", 10, { "bold" })
+
 	highlight("@markup.heading.1.markdown", 13, { "bold" })
 	highlight("@markup.heading.2.markdown", 9, { "bold" })
 	highlight("@markup.heading.3.markdown", 21, { "bold" })
